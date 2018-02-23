@@ -2,8 +2,8 @@
 header('Access-Control-Allow-Origin: *');
 //echo "save_data({'user':'phongvh'})";
 
-$api_path = "http://209.58.165.15/api/v5/";
-//$api_path = "http://heliosapi.topicanative.asia/api/v5/";
+//$api_path = "http://209.58.165.15/api/v5/";
+$api_path = "http://heliosapi.topicanative.asia/api/v5/";
 
 if ($_GET["action"] == "visitor") {
     $api_data = $_GET["data"];
